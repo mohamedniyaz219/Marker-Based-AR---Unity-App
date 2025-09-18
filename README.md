@@ -40,12 +40,16 @@ This application demonstrates marker-based augmented reality technology where vi
    - Navigate to the cloned repository folder
    - Select the project folder
 
-3. **Vuforia Configuration**
-   - The project already includes Vuforia Engine 11.1.3
+3. **Install Vuforia Package**
+   - Open Window > Package Manager in Unity
+   - Install Vuforia Engine 11.1.3 (the package file was excluded due to GitHub size limits)
+   - Alternatively, you can download the package from PTC Vuforia developer portal
+
+4. **Vuforia Configuration**
    - Vuforia configuration is located in `Assets/Resources/VuforiaConfiguration.asset`
    - You may need to update the license key in the Vuforia Configuration
 
-4. **Build Settings**
+5. **Build Settings**
    - Go to File > Build Settings
    - Select your target platform (Android/iOS)
    - Configure platform-specific settings as needed
