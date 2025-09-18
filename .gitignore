@@ -88,3 +88,6 @@ $RECYCLE.BIN/
 
 # Vuforia specific files
 /QCAR/
+
+# Large package files (can be reinstalled via Package Manager)
+Packages/*.tgz
